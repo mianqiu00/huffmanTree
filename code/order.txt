@@ -1,0 +1,3 @@
+./huffman.exe -m c -i weight.txt -o model.txt
+./huffman.exe -m e -i origin.txt -h model.txt -o encode.txt
+./huffman.exe -m d -i encode.txt -h model.txt -o decode.txt
